@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.logo {
+
+}
+
+header {
+    background-color: rgb(26, 26, 26);
+    padding: 50px;
+}
+
+footer {
+    background-color: rgb(0, 119, 255);
+    padding: 100px;
+}
+
+.section1 {
+    background-color: rgb(43, 43, 43);
+    padding: 100px;
+}
+
+.searchsection {
+    background-color: rgb(0, 255, 136);
+    padding: 10px;
+}
+
+.column2 {
+    float: right;
+    width: 20%;
+    padding: 10px 10px;
+}
+
+.row2 {
+
+
+}
+
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 10px 10px;
+}
+
+.row {
+
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 800px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .logo > img:nth-child(2),.logo > img:nth-child(3),.logo > img:nth-child(4) {
+        display: none;
+    }
+}
+
+
+.card {
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+    font-size: 100%;
+    padding: 10px;
+    width: 100%;
+    transition: 0.4s;
+    min-height: 180px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: rgb(0, 119, 255);
+    transition: 0.4s;
+}
+
+.container {
+    padding: 8px 8px;
+    text-align: center;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
