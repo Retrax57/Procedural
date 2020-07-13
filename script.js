@@ -1,33 +1,33 @@
 const materials = [{
-    name: "BRICKS",
-    img: "bricks.png"
+    name: "PBR PLASTIC",
+    img: "pbrplastic.png"
 }, {
-    name: "LEATHER",
-    img: "leather.png"
+    name: "CUTTINGMAT",
+    img: "cuttingmat.png"
 }, {
-    name: "MARBLE",
-    img: "marble.png"
+    name: "DEFAULT",
+    img: "default.png"
 }, {
-    name: "METAL",
-    img: "metal.png"
+    name: "DEFAULT",
+    img: "default.png"
 }, {
-    name: "PAINTED WALL",
-    img: "paintedwall.png"
+    name: "DEFAULT",
+    img: "default.png"
 }, {
-    name: "PAVEMENT",
-    img: "pavement.png"
+    name: "DEFAULT",
+    img: "default.png"
 }, {
-    name: "PAVEMENT",
-    img: "pavement2.png"
+    name: "DEFAULT",
+    img: "default.png"
 }, {
-    name: "ROCK",
-    img: "rock.png"
+    name: "DEFAULT",
+    img: "default.png"
 }, {
-    name: "ROCK",
-    img: "rock2.png"
+    name: "DEFAULT",
+    img: "default.png"
 }, {
-    name: "WOODEN FLOOR",
-    img: "woodfloor.png"
+    name: "DEFAULT",
+    img: "default.png"
 }];
 
 const row = document.getElementById("materials");
