@@ -5,8 +5,8 @@ const materials = [{
     name: "CUTTINGMAT",
     img: "cuttingmat.png"
 }, {
-    name: "DEFAULT",
-    img: "default.png"
+    name: "FLANNEL",
+    img: "flannel.png"
 }, {
     name: "DEFAULT",
     img: "default.png"
