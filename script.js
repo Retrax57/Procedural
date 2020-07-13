@@ -28,7 +28,48 @@ const materials = [{
 }, {
     name: "DEFAULT",
     img: "default.png"
-}];
+},
+{
+    name: "DEFAULT",
+    img: "default.png"
+},
+{
+    name: "DEFAULT",
+    img: "default.png"
+},
+{
+    name: "DEFAULT",
+    img: "default.png"
+},
+{
+    name: "DEFAULT",
+    img: "default.png"
+},
+{
+    name: "DEFAULT",
+    img: "default.png"
+},
+{
+    name: "DEFAULT",
+    img: "default.png"
+},
+{
+    name: "DEFAULT",
+    img: "default.png"
+},
+{
+    name: "DEFAULT",
+    img: "default.png"
+},
+{
+    name: "DEFAULT",
+    img: "default.png"
+},
+{
+    name: "DEFAULT",
+    img: "default.png"
+},
+];
 
 const row = document.getElementById("materials");
 
