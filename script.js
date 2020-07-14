@@ -1,11 +1,10 @@
 function main() {
     const modal = document.getElementById("modal");
-    const cards = document.querySelectorAll(".card");
     const span = document.getElementsByClassName("close")[0];
     const a = document.getElementById("downloadLink");
     const row = document.getElementById("materials");
 
-    for (let i = 0; i < materials.length; i += 1) {
+    for (let i = 0; i < materials.length; i ++) {
         row.innerHTML += `<div class="column">
             <div class="card">
                 <img src="img/materials/${materials[i].img[0]}" alt="${materials[i].name}" style="width:100%;border-radius: 10px 10px 0 0;">
@@ -16,8 +15,11 @@ function main() {
         </div>`
     }
 
-    for (let i = 0; i < cards.length; i += 1) {
+    const cards = document.querySelectorAll(".card");
+    for (let i = 0; i < cards.length; i++) {
+        console.log(i);
         cards[i].onclick = function () {
+
             setModalData(i);
         }
     }

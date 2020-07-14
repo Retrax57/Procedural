@@ -9,7 +9,7 @@ const materials = [{
     lic: "CC0 1.0 Universal",
     desc: "Lorem ipsum dolor sit amet consectour"
 }, {
-    name: "CUTTINGMAT",
+    name: "CUTTING MAT",
     img: ["cuttingmat.png"],
     file: "CuttingMat.blend",
     size: 6.93,
@@ -29,13 +29,13 @@ const materials = [{
     lic: "CC0 1.0 Universal",
     desc: ""
 }, {
-    name: "DEFAULT",
+    name: "GRAINY PLASTIC",
     img: ["default.png"],
-    file: "",
-    size: 0.00,
+    file: "GrainyPlastic.blend",
+    size: 6.89,
     author: "",
-    blender: "0.0",
-    pub: "Januray 1, 1970",
+    blender: "2.79",
+    pub: "July 14, 2020",
     lic: "",
     desc: ""
 }, {
