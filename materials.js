@@ -19,7 +19,7 @@ const materials = [{
     engine: "Cycles",
     pub: "July 13, 2020",
     lic: "CC0 1.0 Universal",
-    desc: "A shader designed to simulate the surface of a cutting mat which is often used in workshop."
+    desc: "A shader designed to emulate the surface of a cutting mat which is often used in workshop."
 }, {
     name: "FLANNEL",
     img: ["flannel.png"],
@@ -30,7 +30,7 @@ const materials = [{
     engine: "Cycles",
     pub: "July 13, 2020",
     lic: "CC0 1.0 Universal",
-    desc: "A shader designed to simulate the surface of flannel clothing."
+    desc: "A shader designed to emulate the surface of flannel clothing."
 }, {
     name: "GRAINY PLASTIC",
     img: ["grainyplastic.png"],
@@ -45,25 +45,25 @@ const materials = [{
 }, {
     name: "CARBON FIBRE",
     img: ["carbonfibre.png"],
-    file: "",
-    size: 0.00,
-    author: "",
+    file: "carbonFibre.blend",
+    size: 7.20,
+    author: "Unknown",
     blender: "2.8x",
     engine: "Cycles",
-    pub: "Januray 1, 1970",
-    lic: "",
-    desc: ""
+    pub: "July 14, 2020",
+    lic: "CC0 1.0 Universal",
+    desc: "Shader which tries to emulate the surface of carbon fibre sheets"
 }, {
-    name: "DEFAULT",
-    img: ["default.png"],
-    file: "",
-    size: 0.00,
-    author: "",
-    blender: "0.0",
-    engine: "",
-    pub: "Januray 1, 1970",
-    lic: "",
-    desc: ""
+    name: "ROCK1",
+    img: ["rock1.png"],
+    file: "Rock1.blend",
+    size: 7.30,
+    author: "Luciano Marquez",
+    blender: "2.8x",
+    engine: "Cycles/Eevee",
+    pub: "10 July, 2020",
+    lic: "CC BY 2.0",
+    desc: "Fantastic rock shader by Luciano Marquez"
 }, {
     name: "DEFAULT",
     img: ["default.png"],
