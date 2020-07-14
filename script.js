@@ -12,7 +12,7 @@ const materials = [{
     file: "Flannel.blend"
 }, {
     name: "GRAINY PLASTIC",
-    img: ["default.png"],
+    img: ["grainyplastic.png"],
     file: "GrainyPlastic.blend"
 }, {
     name: "DEFAULT",
