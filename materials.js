@@ -44,7 +44,7 @@ const materials = [{
     desc: "A shader which looks good on objects designed to look like the surface of electronic items such as a T.V. remote control."
 }, {
     name: "CARBON FIBRE",
-    img: ["default.png"],
+    img: ["carbonfibre.png"],
     file: "",
     size: 0.00,
     author: "",
