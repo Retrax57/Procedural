@@ -215,6 +215,13 @@ footer span {
     float: right
 }
 
+.modal-body-descript {
+    float: right;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+}
+
 .modal-footer {
     padding: 2px 16px;
     background-color: #1a1a1a;
@@ -237,19 +244,23 @@ footer span {
 .btn-download {
     background: #00beff;
     border: 0;
-    color: #1a1a1a
+    color: white;
+    border: 1px solid #00beff;
 }
 
 .btn-share {
     background: transparent;
     border: 1px solid #00beff;
-    color: #00beff
+    color: #00beff;
 }
 
 .btn-download:hover {
-    background: #39ccff
+    background: #00ff95;
+    border: 1px solid #00ff95;
+
 }
 
 .btn-share:hover {
-    background: #00beff2e
+    background: #00beff2e;
 }
+
