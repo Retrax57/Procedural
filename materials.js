@@ -6,7 +6,8 @@ const materials = [{
     blender: "2.83.2",
     author: "",
     pub: "July 13, 2020",
-    lic: "CC0 1.0 Universal"
+    lic: "CC0 1.0 Universal",
+    desc: "Lorem ipsum dolor sit amet consectour"
 }, {
     name: "CUTTINGMAT",
     img: ["cuttingmat.png"],
@@ -15,7 +16,8 @@ const materials = [{
     author: "",
     blender: "2.83.2",
     pub: "July 13, 2020",
-    lic: "CC0 1.0 Universal"
+    lic: "CC0 1.0 Universal",
+    desc: ""
 }, {
     name: "FLANNEL",
     img: ["flannel.png"],
@@ -24,7 +26,8 @@ const materials = [{
     author: "",
     blender: "2.83.2",
     pub: "July 13, 2020",
-    lic: "CC0 1.0 Universal"
+    lic: "CC0 1.0 Universal",
+    desc: ""
 }, {
     name: "DEFAULT",
     img: ["default.png"],
@@ -33,7 +36,8 @@ const materials = [{
     author: "",
     blender: "0.0",
     pub: "Januray 1, 1970",
-    lic: ""
+    lic: "",
+    desc: ""
 }, {
     name: "DEFAULT",
     img: ["default.png"],
@@ -42,7 +46,8 @@ const materials = [{
     author: "",
     blender: "0.0",
     pub: "Januray 1, 1970",
-    lic: ""
+    lic: "",
+    desc: ""
 }, {
     name: "DEFAULT",
     img: ["default.png"],
@@ -51,7 +56,8 @@ const materials = [{
     author: "",
     blender: "0.0",
     pub: "Januray 1, 1970",
-    lic: ""
+    lic: "",
+    desc: ""
 }, {
     name: "DEFAULT",
     img: ["default.png"],
@@ -60,7 +66,8 @@ const materials = [{
     author: "",
     blender: "0.0",
     pub: "Januray 1, 1970",
-    lic: ""
+    lic: "",
+    desc: ""
 }, {
     name: "DEFAULT",
     img: ["default.png"],
@@ -69,7 +76,8 @@ const materials = [{
     author: "",
     blender: "0.0",
     pub: "Januray 1, 1970",
-    lic: ""
+    lic: "",
+    desc: ""
 }, {
     name: "DEFAULT",
     img: ["default.png"],
@@ -78,7 +86,8 @@ const materials = [{
     author: "",
     blender: "0.0",
     pub: "Januray 1, 1970",
-    lic: ""
+    lic: "",
+    desc: ""
 }, {
     name: "DEFAULT",
     img: ["default.png"],
@@ -87,7 +96,8 @@ const materials = [{
     author: "",
     blender: "0.0",
     pub: "Januray 1, 1970",
-    lic: ""
+    lic: "",
+    desc: ""
 }, {
     name: "DEFAULT",
     img: ["default.png"],
@@ -96,7 +106,8 @@ const materials = [{
     author: "",
     blender: "0.0",
     pub: "Januray 1, 1970",
-    lic: ""
+    lic: "",
+    desc: ""
 }, {
     name: "DEFAULT",
     img: ["default.png"],
@@ -105,7 +116,8 @@ const materials = [{
     author: "",
     blender: "0.0",
     pub: "Januray 1, 1970",
-    lic: ""
+    lic: "",
+    desc: ""
 }, {
     name: "DEFAULT",
     img: ["default.png"],
@@ -114,7 +126,8 @@ const materials = [{
     author: "",
     blender: "0.0",
     pub: "Januray 1, 1970",
-    lic: ""
+    lic: "",
+    desc: ""
 }, {
     name: "DEFAULT",
     img: ["default.png"],
@@ -123,7 +136,8 @@ const materials = [{
     author: "",
     blender: "0.0",
     pub: "Januray 1, 1970",
-    lic: ""
+    lic: "",
+    desc: ""
 }, {
     name: "DEFAULT",
     img: ["default.png"],
@@ -132,7 +146,8 @@ const materials = [{
     author: "",
     blender: "0.0",
     pub: "Januray 1, 1970",
-    lic: ""
+    lic: "",
+    desc: ""
 }, {
     name: "DEFAULT",
     img: ["default.png"],
@@ -141,7 +156,8 @@ const materials = [{
     author: "",
     blender: "0.0",
     pub: "Januray 1, 1970",
-    lic: ""
+    lic: "",
+    desc: ""
 }, {
     name: "DEFAULT",
     img: ["default.png"],
@@ -150,7 +166,8 @@ const materials = [{
     author: "",
     blender: "0.0",
     pub: "Januray 1, 1970",
-    lic: ""
+    lic: "",
+    desc: ""
 }, {
     name: "DEFAULT",
     img: ["default.png"],
@@ -159,7 +176,8 @@ const materials = [{
     author: "",
     blender: "0.0",
     pub: "Januray 1, 1970",
-    lic: ""
+    lic: "",
+    desc: ""
 }, {
     name: "DEFAULT",
     img: ["default.png"],
@@ -168,7 +186,8 @@ const materials = [{
     author: "",
     blender: "0.0",
     pub: "Januray 1, 1970",
-    lic: ""
+    lic: "",
+    desc: ""
 }, {
     name: "DEFAULT",
     img: ["default.png"],
@@ -177,5 +196,6 @@ const materials = [{
     author: "",
     blender: "0.0",
     pub: "Januray 1, 1970",
-    lic: ""
+    lic: "",
+    desc: ""
 }];

@@ -16,6 +16,7 @@ for (let i = 0; i < cards.length; i += 1) {
     cards[i].onclick = function () {
         modal.style.display = "block";
         modal.querySelector("h2").innerHTML = materials[i].name;
+        modal.querySelector(".description").innerHTML = materials[i].desc;
         modal.querySelector("img").src = "img/materials/" + materials[i].img[0];
         modal.querySelectorAll("span")[1].innerText = materials[i].lic
         modal.querySelectorAll("span")[2].innerText = materials[i].author
