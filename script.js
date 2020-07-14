@@ -1,73 +1,93 @@
 const materials = [{
     name: "PBR PLASTIC",
-    img: "pbrplastic.png"
+    img: ["pbrplastic.png"],
+    file: "PBRPlastic.blend",
 }, {
     name: "CUTTINGMAT",
-    img: "cuttingmat.png"
+    img: ["cuttingmat.png"],
+    file: "CuttingMat.blend"
 }, {
     name: "FLANNEL",
-    img: "flannel.png"
+    img: ["flannel.png"],
+    file: "Flannel.blend"
 }, {
     name: "DEFAULT",
-    img: "default.png"
+    img: ["default.png"],
+    file: ""
 }, {
     name: "DEFAULT",
-    img: "default.png"
+    img: ["default.png"],
+    file: ""
 }, {
     name: "DEFAULT",
-    img: "default.png"
+    img: ["default.png"],
+    file: ""
 }, {
     name: "DEFAULT",
-    img: "default.png"
+    img: ["default.png"],
+    file: ""
 }, {
     name: "DEFAULT",
-    img: "default.png"
+    img: ["default.png"],
+    file: ""
 }, {
     name: "DEFAULT",
-    img: "default.png"
+    img: ["default.png"],
+    file: ""
 }, {
     name: "DEFAULT",
-    img: "default.png"
+    img: ["default.png"],
+    file: ""
 },
 {
     name: "DEFAULT",
-    img: "default.png"
+    img: ["default.png"],
+    file: ""
 },
 {
     name: "DEFAULT",
-    img: "default.png"
+    img: ["default.png"],
+    file: ""
 },
 {
     name: "DEFAULT",
-    img: "default.png"
+    img: ["default.png"],
+    file: ""
 },
 {
     name: "DEFAULT",
-    img: "default.png"
+    img: ["default.png"],
+    file: ""
 },
 {
     name: "DEFAULT",
-    img: "default.png"
+    img: ["default.png"],
+    file: ""
 },
 {
     name: "DEFAULT",
-    img: "default.png"
+    img: ["default.png"],
+    file: ""
 },
 {
     name: "DEFAULT",
-    img: "default.png"
+    img: ["default.png"],
+    file: ""
 },
 {
     name: "DEFAULT",
-    img: "default.png"
+    img: ["default.png"],
+    file: ""
 },
 {
     name: "DEFAULT",
-    img: "default.png"
+    img: ["default.png"],
+    file: ""
 },
 {
     name: "DEFAULT",
-    img: "default.png"
+    img: ["default.png"],
+    file: ""
 },
 ];
 
@@ -76,7 +96,7 @@ const row = document.getElementById("materials");
 for (let i = 0; i < materials.length; i++) {
     row.innerHTML += `<div class="column">
             <div class="card">
-                <img src="img/materials/${materials[i].img}" alt="${materials[i].name}" style="width:100%;border-radius: 10px 10px 0 0;">
+                <img src="img/materials/${materials[i].img[0]}" alt="${materials[i].name}" style="width:100%;border-radius: 10px 10px 0 0;">
                 <div class="container">
                     ${materials[i].name}
                 </div>
@@ -92,7 +112,7 @@ for(let i = 0; i < cards.length; i++) {
     cards[i].onclick = function () {
         modal.style.display = "block";
         modal.querySelector("h2").innerHTML = materials[i].name;
-        modal.querySelector("img").src = "img/materials/" + materials[i].img;
+        modal.querySelector("img").src = "img/materials/" + materials[i].img[0];
     }
 }
 
