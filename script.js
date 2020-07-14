@@ -3,7 +3,7 @@ const materials = [{
     img: ["pbrplastic.png"],
     file: "PBRPlastic.blend",
 }, {
-    name: "CUTTINGMAT",
+    name: "CUTTING MAT",
     img: ["cuttingmat.png"],
     file: "CuttingMat.blend"
 }, {
@@ -11,9 +11,9 @@ const materials = [{
     img: ["flannel.png"],
     file: "Flannel.blend"
 }, {
-    name: "DEFAULT",
+    name: "GRAINY PLASTIC",
     img: ["default.png"],
-    file: ""
+    file: "GrainyPlastic.blend"
 }, {
     name: "DEFAULT",
     img: ["default.png"],
