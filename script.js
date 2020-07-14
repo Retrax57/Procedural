@@ -12,6 +12,8 @@ for (let i = 0; i < materials.length; i += 1) {
 const modal = document.getElementById("modal");
 const cards = document.querySelectorAll(".card");
 const span = document.getElementsByClassName("close")[0];
+const a = document.getElementById("downloadLink");
+
 for (let i = 0; i < cards.length; i += 1) {
     cards[i].onclick = function () {
         modal.style.display = "block";
@@ -23,11 +25,16 @@ for (let i = 0; i < cards.length; i += 1) {
         modal.querySelectorAll("span")[3].innerText = materials[i].blender
         modal.querySelectorAll("span")[4].innerText = materials[i].size + " MB"
         modal.querySelectorAll("span")[5].innerText = materials[i].pub
+        a.setAttribute("href", "https://github.com/Retrax57/Procedural/blob/master/blendfiles/" + materials[i].file + "?raw=true");
+        a.setAttribute("download", materials[i].file);
     }
 }
 span.onclick = function () {
     modal.style.display = "none"
 };
+modal.querySelector(".btn-download").onclick = function() {
+    a.click();
+}
 window.onclick = function (event) {
     if (event.target == modal) {
         modal.style.display = "none"
