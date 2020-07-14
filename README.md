@@ -1,7 +1,7 @@
 # Procedural
 Site hosting for Procedural, a website where you can download free procedural materials for blender
 
-### Avaiable materials
+### Available materials
 | Name        | Image |
 |-------------|-------|
 | PBR Plastic | <img src="https://retrax57.github.io/Procedural/img/materials/pbrplastic.png" alt="PBR Plastic" width="200px"/> |
