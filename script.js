@@ -83,3 +83,24 @@ for (let i = 0; i < materials.length; i++) {
             </div>
         </div>`;
 }
+
+const modal = document.getElementById("modal");
+const cards = document.querySelectorAll(".card");
+const span = document.getElementsByClassName("close")[0];
+
+for(let i = 0; i < cards.length; i++) {
+    cards[i].onclick = function () {
+        modal.style.display = "block";
+        modal.querySelector("h2").innerHTML = materials[i].name;
+        modal.querySelector("img").src = "img/materials/" + materials[i].img;
+    }
+}
+
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal)
+        modal.style.display = "none";
+}
