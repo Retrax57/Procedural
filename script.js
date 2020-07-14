@@ -1,7 +1,8 @@
+const a = document.getElementById("downloadLink");
+const modal = document.getElementById("modal");
+
 function main() {
-    const modal = document.getElementById("modal");
     const span = document.getElementsByClassName("close")[0];
-    const a = document.getElementById("downloadLink");
     const row = document.getElementById("materials");
 
     for (let i = 0; i < materials.length; i ++) {
@@ -17,14 +18,12 @@ function main() {
 
     const cards = document.querySelectorAll(".card");
     for (let i = 0; i < cards.length; i++) {
-        console.log(i);
         cards[i].onclick = function () {
-
             setModalData(i);
         }
     }
 
-    if (history.state.page !== undefined) {
+    if (history.state !== null && history.state.page !== undefined) {
         setModalData(history.state.page);
     }
 
@@ -37,7 +36,7 @@ function main() {
         a.click();
     }
     window.onclick = function (event) {
-        if (event.target == modal) {
+        if (event.target === modal) {
             modal.style.display = "none"
             history.pushState({page: undefined}, "Procedural", "/")
             document.title = "Procedural"

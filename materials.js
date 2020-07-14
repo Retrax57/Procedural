@@ -30,7 +30,7 @@ const materials = [{
     desc: ""
 }, {
     name: "GRAINY PLASTIC",
-    img: ["default.png"],
+    img: ["grainyplastic.png"],
     file: "GrainyPlastic.blend",
     size: 6.89,
     author: "",

@@ -243,24 +243,21 @@ footer span {
 
 .btn-download {
     background: #00beff;
-    border: 0;
-    color: white;
-    border: 1px solid #00beff;
+    color: #1a1a1a;
+    border: 1px solid #00beff
 }
 
 .btn-share {
     background: transparent;
     border: 1px solid #00beff;
-    color: #00beff;
+    color: #00beff
 }
 
 .btn-download:hover {
     background: #00ff95;
-    border: 1px solid #00ff95;
-
+    border: 1px solid #00ff95
 }
 
 .btn-share:hover {
-    background: #00beff2e;
+    background: #00beff2e
 }
-
