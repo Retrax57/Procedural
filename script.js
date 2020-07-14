@@ -1,4 +1,5 @@
 const a = document.getElementById("downloadLink");
+const modalShare = document.getElementById("modalShare");
 const modal = document.getElementById("modal");
 
 function main() {
@@ -29,17 +30,22 @@ function main() {
 
     span.onclick = function () {
         modal.style.display = "none"
-        history.pushState({page: undefined}, "Procedural", "/")
+        history.pushState({page: undefined}, "Procedural", "/Procedural/")
         document.title = "Procedural"
     };
     modal.querySelector(".btn-download").onclick = function () {
         a.click();
     }
+    modal.querySelector(".btn-share").onclick = function () {
+        modalShare.style.display = "block";
+    }
     window.onclick = function (event) {
         if (event.target === modal) {
             modal.style.display = "none"
-            history.pushState({page: undefined}, "Procedural", "/")
+            history.pushState({page: undefined}, "Procedural", "/Procedural/")
             document.title = "Procedural"
+        } else if(event.target === modalShare) {
+            modalShare.style.display = "none";
         }
     }
 }
@@ -54,8 +60,9 @@ function setModalData(i) {
     modal.querySelectorAll("span")[1].innerText = materials[i].lic
     modal.querySelectorAll("span")[2].innerText = materials[i].author
     modal.querySelectorAll("span")[3].innerText = materials[i].blender
-    modal.querySelectorAll("span")[4].innerText = materials[i].size + " MB"
-    modal.querySelectorAll("span")[5].innerText = materials[i].pub
+    modal.querySelectorAll("span")[4].innerText = materials[i].engine
+    modal.querySelectorAll("span")[5].innerText = materials[i].size + " MB"
+    modal.querySelectorAll("span")[6].innerText = materials[i].pub
     a.setAttribute("href", "https://github.com/Retrax57/Procedural/blob/master/blendfiles/" + materials[i].file + "?raw=true")
     a.setAttribute("download", materials[i].file)
 }

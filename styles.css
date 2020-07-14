@@ -138,6 +138,14 @@ footer span {
     overflow: hidden
 }
 
+#modalShare {
+    padding-top: 200px;
+}
+
+#modalShare .modal-content {
+    max-width: 300px;
+}
+
 @-webkit-keyframes animatetop {
     from {
         top: -300px;
@@ -196,15 +204,15 @@ footer span {
     height: 300px;
     width: calc(100% - 305px);
     vertical-align: bottom;
-    padding: 25px 10px
+    padding: 15px 10px;
 }
 
 .modal-half .description {
-    min-height: calc(100% - 150px)
+    min-height: calc(100% - 180px);
 }
 
 .modal-half .info {
-    height: 150px
+    height: 180px;
 }
 
 .modal-half .info p {
@@ -251,6 +259,39 @@ footer span {
     background: transparent;
     border: 1px solid #00beff;
     color: #00beff
+}
+
+.button {
+    width: 80%;
+    padding: 8px 0px;
+    margin: 10px 10%;
+    background: #2b2b2b;
+    outline: none;
+    border: 2px solid #ccc;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .4s;
+    color: #fff
+}
+
+.twitter {
+    border: 2px solid #1da1f2;
+    background: rgba(29, 161, 242, 0.5);
+}
+
+.fb {
+    border: 2px solid #3b5998;
+    background: rgba(59, 89, 152, 0.5);
+}
+
+.pin {
+    border: 2px solid #bd081c;
+    background: rgba(189, 8, 28, 0.5);
+}
+
+.twitter:hover {
+    background: #1da1f23b;
 }
 
 .btn-download:hover {
