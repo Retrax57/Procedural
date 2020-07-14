@@ -15,7 +15,13 @@ header {
 
 footer {
     background-color: rgb(0, 119, 255);
-    padding: 100px
+    padding: 100px;
+    text-align: center
+}
+
+footer span {
+    opacity: .7;
+    margin: 0 10px;
 }
 
 .section1 {
