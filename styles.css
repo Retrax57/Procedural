@@ -15,7 +15,13 @@ header {
 
 footer {
     background-color: rgb(0, 119, 255);
-    padding: 100px
+    padding: 100px;
+    text-align: center
+}
+
+footer span {
+    opacity: .7;
+    margin: 0 10px;
 }
 
 .section1 {
@@ -129,7 +135,7 @@ footer {
     animation-name: animatetop;
     animation-duration: 0.4s;
     border-radius: 5px;
-    overflow: hidden;
+    overflow: hidden
 }
 
 @-webkit-keyframes animatetop {
@@ -160,7 +166,7 @@ footer {
     font-size: 28px;
     font-weight: bold;
     position: relative;
-    top: -2px;
+    top: -2px
 }
 
 .close:focus, .close:hover {
@@ -181,6 +187,32 @@ footer {
 
 .modal-body img {
     max-height: 300px;
+    display: inline-block;
+    vertical-align: top
+}
+
+.modal-half {
+    display: inline-block;
+    height: 300px;
+    width: calc(100% - 305px);
+    vertical-align: bottom;
+    padding: 25px 10px
+}
+
+.modal-half .description {
+    min-height: calc(100% - 150px)
+}
+
+.modal-half .info {
+    height: 150px
+}
+
+.modal-half .info p {
+    line-height: 30px
+}
+
+.modal-half .info p span {
+    float: right
 }
 
 .modal-body-descript {
