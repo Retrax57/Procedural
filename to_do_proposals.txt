@@ -1,0 +1,7 @@
+To do proposals:-
+
+1. Add a simple like counter system for each material download modal.
+2. Add a multi-page system for loading up new pages of materials.
+3. Possibly add a simple search function that returns results/filters with selected keywords.
+4. Add categories for different types of materials.
+5. Possible decoration of the home page.
