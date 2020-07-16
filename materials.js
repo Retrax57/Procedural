@@ -109,16 +109,16 @@ const materials = [{
     lic: "CC BY 2.0",
     desc: "Make your own snek and maybe some roof tiling too !"
 }, {
-    name: "DEFAULT",
-    img: ["default.png"],
-    file: "",
+    name: "WICKER",
+    img: ["wicker.png"],
+    file: "gumroad.com/l/NshL",
     size: 0.00,
-    author: "",
-    blender: "0.0",
-    engine: "",
-    pub: "Januray 1, 1970",
-    lic: "",
-    desc: ""
+    author: "Erin Dale",
+    blender: "2.8x",
+    engine: "Cycles",
+    pub: "17 July, 2020",
+    lic: "CC0 1.0 Universal",
+    desc: "A material to generate wicker/weaving"
 }, {
     name: "DEFAULT",
     img: ["default.png"],
