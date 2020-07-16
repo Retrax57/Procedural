@@ -63,8 +63,16 @@ function setModalData(i) {
     modal.querySelectorAll("span")[4].innerText = materials[i].engine
     modal.querySelectorAll("span")[5].innerText = materials[i].size + " MB"
     modal.querySelectorAll("span")[6].innerText = materials[i].pub
-    a.setAttribute("href", "https://github.com/Retrax57/Procedural/blob/master/blendfiles/" + materials[i].file + "?raw=true")
-    a.setAttribute("download", materials[i].file)
+
+    if(materials[i].file.includes("http")) {
+        a.setAttribute("href", materials[i].file)
+        a.setAttribute("download", "")
+        a.setAttribute("target", "_blank")
+    } else {
+        a.setAttribute("href", "https://github.com/Retrax57/Procedural/blob/master/blendfiles/" + materials[i].file + "?raw=true")
+        a.setAttribute("download", materials[i].file)
+        a.setAttribute("target", "")
+    }
 }
 
 main();
