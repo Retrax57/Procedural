@@ -256,14 +256,24 @@ footer span {
 .btn-download {
     background: #00beff;
     color: #1a1a1a;
-    border: 1px solid #00beff
+    border: 0px;
 }
 
 .btn-share {
     background: transparent;
-    border: 1px solid #00beff;
-    color: #00beff
+    border: 1px dashed #ff0062;
+    color: #ff0062
 }
+.btn-download:hover {
+    background: #00ff95
+}
+
+.btn-share:hover {
+    background: #ff0062;
+    border: 1px solid #ff0062;
+    color: #1a1a1a;
+}
+
 
 .button {
     width: 80%;
@@ -298,11 +308,3 @@ footer span {
     background: #1da1f23b;
 }
 
-.btn-download:hover {
-    background: #00ff95;
-    border: 1px solid #00ff95
-}
-
-.btn-share:hover {
-    background: #00beff2e
-}
