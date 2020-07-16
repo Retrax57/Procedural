@@ -121,7 +121,7 @@ const materials = [{
     desc: "A material to generate wicker/weaving"
 }, {
     name: "KNITTED CLOTH",
-    img: ["knittedclothe.png"],
+    img: ["knittedcloth.png"],
     file: "https://gum.co/Knittr",
     size: 1.11,
     author: "Simon Thommes",
