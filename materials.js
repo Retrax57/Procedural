@@ -45,7 +45,7 @@ const materials = [{
 }, {
     name: "CARBON FIBRE",
     img: ["carbonfibre.png"],
-    file: "carbonFibre.blend",
+    file: "https://gumroad.com/l/rkqRS",
     size: 0.00,
     author: "Malicious Brews",
     blender: "2.8x",
