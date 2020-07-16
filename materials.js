@@ -98,16 +98,16 @@ const materials = [{
     lic: "CC BY 2.0",
     desc: "Realistic set of brick shaders by Simon Thommes."
 }, {
-    name: "DEFAULT",
-    img: ["default.png"],
-    file: "",
-    size: 0.00,
-    author: "",
-    blender: "0.0",
-    engine: "",
-    pub: "Januray 1, 1970",
-    lic: "",
-    desc: ""
+    name: "SCALES",
+    img: ["scales.png"],
+    file: "https://gumroad.com/l/sneks",
+    size: 4.32,
+    author: "Simon Thommes",
+    blender: "2.8x",
+    engine: "Cycles/Eevee",
+    pub: "17 July, 2020",
+    lic: "CC BY 2.0",
+    desc: "Make your own snek and maybe some roof tiling too !"
 }, {
     name: "DEFAULT",
     img: ["default.png"],
