@@ -165,7 +165,7 @@ const materials = [{
     desc: "Toffee and nuts mate, simple as"
 }, {
     name: "CHOCOLATE & NUTS",
-    img: ["choclate&nuts.png"],
+    img: ["chocolate&nuts.png"],
     file: "Chocolate&Nuts.blend",
     size: 0.57,
     author: "bebop",
