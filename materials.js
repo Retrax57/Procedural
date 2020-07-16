@@ -266,6 +266,19 @@ const materials = [{
     pub: "Januray 1, 1970",
     lic: "",
     desc: ""
+},
+{
+    name: "DEFAULT",
+    img: ["default.png"],
+    file: "",
+    size: 0.00,
+    author: "",
+    blender: "0.0",
+    engine: "",
+    pub: "Januray 1, 1970",
+    lic: "",
+    desc: ""
 }
+
 
 ];
