@@ -208,16 +208,16 @@ const materials = [{
     lic: "CC BY 2.0",
     desc: "A set of realistic wood materials"
 }, {
-    name: "DEFAULT",
-    img: ["default.png"],
-    file: "",
-    size: 0.00,
-    author: "",
-    blender: "0.0",
-    engine: "",
-    pub: "Januray 1, 1970",
-    lic: "",
-    desc: ""
+    name: "RUSTY PAINTED METAL",
+    img: ["rustypaintedmetal.png"],
+    file: "RustyPaintedMetal.blend",
+    size: 0.76,
+    author: "Zantique",
+    blender: "2.8x",
+    engine: "Cycles",
+    pub: "17th July, 2020",
+    lic: "CC BY 2.0",
+    desc: "A flaking rusted metal paint generator"
 },
 {
     name: "DEFAULT",
