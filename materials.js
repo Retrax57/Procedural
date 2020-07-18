@@ -111,7 +111,7 @@ const materials = [{
 }, {
     name: "WICKER",
     img: ["wicker.png"],
-    file: "gumroad.com/l/NshL",
+    file: ""https://gumroad.com/l/NshL",
     size: 1.36,
     author: "erindale",
     blender: "2.8x",
