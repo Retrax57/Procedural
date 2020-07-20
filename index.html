@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
     <meta name="description" content="Procedural - a place where you can download free procedural materials for blender">
     <meta name="author" content="Retrax57, kalucky0">
     <meta name="keywords" content="procedural, materials, blender, cycles, eevee, render">
@@ -42,8 +43,18 @@
 <div class="section1">
     <div class="row" id="materials">
     </div>
-</div>
 
+    <div class="pagination pagination--center">
+        <a class="prev page-numbers" onclick="">
+            <i class="fas fa-angle-left"></i>
+        </a>
+        <span class="page-numbers current" onclick="main(0)">1</span>
+        <span class="page-numbers" onclick="main(1)">2</span>
+        <a class="next page-numbers" onclick="">
+            <i class="fas fa-angle-right"></i>
+        </a>
+    </div>
+</div>
 <div id="modal" class="modal">
     <div class="modal-content">
         <div class="modal-header">

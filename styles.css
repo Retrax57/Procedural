@@ -30,7 +30,8 @@ footer span {
 
 .section1 {
     background-color: rgb(43, 43, 43);
-    padding: 100px
+    padding: 100px;
+    padding-bottom: 40px;
 }
 
 .searchsection {
@@ -264,6 +265,7 @@ footer span {
     border: 1px dashed #ff0062;
     color: #ff0062
 }
+
 .btn-download:hover {
     background: #00ff95
 }
@@ -308,3 +310,56 @@ footer span {
     background: #1da1f23b;
 }
 
+.pagination {
+    display: flex;
+    margin-top: 30px;
+}
+
+.pagination .page-numbers {
+    text-align: center;
+    padding: 1px;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.9;
+    margin: 0.3rem;
+}
+
+@media (max-width: 480px) {
+    .pagination .page-numbers {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+.pagination .page-numbers.current {
+    color: #00beff;
+    font-weight: bold;
+    transform-origin: center;
+    transform: scale(1.2);
+}
+
+.pagination .page-numbers i {
+    font-size: 1em;
+    line-height: 0.8em;
+}
+
+.pagination span {
+    color: #00beff;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.pagination span:hover {
+    font-weight: 500;
+    transform-origin: center;
+    transform: scale(1.2);
+}
+
+.pagination.pagination--center {
+    justify-content: center;
+}

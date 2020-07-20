@@ -2,13 +2,14 @@ const a = document.getElementById("downloadLink");
 const modalShare = document.getElementById("modalShare");
 const modal = document.getElementById("modal");
 
-function main() {
+function main(start) {
     const span = document.getElementsByClassName("close")[0];
     const row = document.getElementById("materials");
+    row.innerHTML = "";
 
-    for (let i = 0; i < materials.length; i ++) {
+    for (let i = start * 15; i < Math.min(15 * (start + 1), materials.length); i++) {
         row.innerHTML += `<div class="column">
-            <div class="card">
+            <div class="card" id="${i}">
                 <img src="img/materials/${materials[i].img[0]}" alt="${materials[i].name}" style="width:100%;border-radius: 10px 10px 0 0;">
                 <div class="container">
                     ${materials[i].name}
@@ -17,10 +18,19 @@ function main() {
         </div>`
     }
 
+    const page_nrs = document.querySelectorAll(".page-numbers:not(.prev)");
+    for (let i = 0; i < page_nrs.length; i++) {
+        if(i == start) {
+            page_nrs[i].setAttribute("class", "page-numbers current")
+        } else {
+            page_nrs[i].setAttribute("class", "page-numbers")
+        }
+    }
+
     const cards = document.querySelectorAll(".card");
     for (let i = 0; i < cards.length; i++) {
         cards[i].onclick = function () {
-            setModalData(i);
+            setModalData(cards[i].getAttribute("id"));
         }
     }
 
@@ -44,7 +54,7 @@ function main() {
             modal.style.display = "none"
             history.pushState({page: undefined}, "Procedural", "/Procedural/")
             document.title = "Procedural"
-        } else if(event.target === modalShare) {
+        } else if (event.target === modalShare) {
             modalShare.style.display = "none";
         }
     }
@@ -64,7 +74,7 @@ function setModalData(i) {
     modal.querySelectorAll("span")[5].innerText = materials[i].size + " MB"
     modal.querySelectorAll("span")[6].innerText = materials[i].pub
 
-    if(materials[i].file.includes("http")) {
+    if (materials[i].file.includes("http")) {
         a.setAttribute("href", materials[i].file)
         a.setAttribute("download", "")
         a.setAttribute("target", "_blank")
@@ -75,4 +85,4 @@ function setModalData(i) {
     }
 }
 
-main();
+main(0);
