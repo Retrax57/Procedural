@@ -279,6 +279,4 @@ const materials = [{
     lic: "",
     desc: ""
 }
-
-
 ];
