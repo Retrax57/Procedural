@@ -5,7 +5,12 @@
     box-sizing: border-box
 }
 
-.logo {
+.logo img {
+    cursor: pointer;
+}
+
+.logo img:hover {
+    opacity: .8;
 }
 
 header {
@@ -45,8 +50,7 @@ footer span {
     padding: 10px
 }
 
-.row2 {
-}
+.row2 {}
 
 .row2:after {
     content: "";
@@ -60,8 +64,7 @@ footer span {
     padding: 10px
 }
 
-.row {
-}
+.row {}
 
 .row:after {
     content: "";
@@ -76,7 +79,9 @@ footer span {
         margin-bottom: 20px
     }
 
-    .logo > img:nth-child(2), .logo > img:nth-child(3), .logo > img:nth-child(4) {
+    .logo>img:nth-child(2),
+    .logo>img:nth-child(3),
+    .logo>img:nth-child(4) {
         display: none
     }
 }
@@ -156,6 +161,7 @@ footer span {
         top: -300px;
         opacity: 0
     }
+
     to {
         top: 0;
         opacity: 1
@@ -167,6 +173,7 @@ footer span {
         top: -300px;
         opacity: 0
     }
+
     to {
         top: 0;
         opacity: 1
@@ -182,7 +189,8 @@ footer span {
     top: -2px
 }
 
-.close:focus, .close:hover {
+.close:focus,
+.close:hover {
     color: #bdbdbd;
     text-decoration: none;
     cursor: pointer
@@ -242,7 +250,8 @@ footer span {
     height: 48px
 }
 
-.btn-download, .btn-share {
+.btn-download,
+.btn-share {
     outline: 0;
     padding: 8px 18px;
     border-radius: 4px;

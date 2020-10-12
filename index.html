@@ -7,15 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="styles.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
-    <meta name="description" content="Procedural - a place where you can download free procedural materials for blender">
+    <meta name="description"
+        content="Procedural - a place where you can download free procedural materials for blender">
     <meta name="author" content="Retrax57, kalucky0">
     <meta name="keywords" content="procedural, materials, blender, cycles, eevee, render">
     <meta property="og:title" content="Procedural">
     <meta property="og:type" content="object">
     <meta property="og:url" content="https://retrax57.github.io/Procedural/">
-    <meta property="og:description" content="Procedural - a place where you can download free procedural materials for Blender">
+    <meta property="og:description"
+        content="Procedural - a place where you can download free procedural materials for Blender">
     <meta property="og:image" content="https://retrax57.github.io/Procedural/img/social_image.png">
-    <meta name="twitter:description" content="Procedural - a place where you can download free procedural materials for Blender">
+    <meta name="twitter:description"
+        content="Procedural - a place where you can download free procedural materials for Blender">
     <meta name="twitter:title" content="Procedural">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image:src" content="https://retrax57.github.io/Procedural/img/social_image.png">
@@ -25,79 +28,87 @@
 </head>
 
 <body>
-<header>
-    <div class="logo">
-        <img src="img/logo.png" alt="Procedural Logo" style="width:350px;">
-        <img src="img/substancelogo.png" alt="Substance Logo" style="width:50px;
-                                                  float:right;
-    ">
-        <img src="img/quixellogo.png" alt="Quixel Logo" style="width:50px;
-                                               float:right;
-    ">
-        <img src="img/blenderlogo.png" alt="Blender Logo" style="width:50px;
-                                                float:right;
-    ">
-    </div>
-</header>
-
-<div class="section1">
-    <div class="row" id="materials">
-    </div>
-
-    <div class="pagination pagination--center">
-        <a class="prev page-numbers" onclick="">
-            <i class="fas fa-angle-left"></i>
-        </a>
-        <span class="page-numbers current" onclick="main(0)">1</span>
-        <span class="page-numbers" onclick="main(1)">2</span>
-        <a class="next page-numbers" onclick="">
-            <i class="fas fa-angle-right"></i>
-        </a>
-    </div>
-</div>
-<div id="modal" class="modal">
-    <div class="modal-content">
-        <div class="modal-header">
-            <span class="close">&times;</span>
-            <h2>Material Name</h2>
+    <header>
+        <div class="logo">
+            <a href="https://retrax57.github.io/Procedural/">
+                <img src="img/logo.png" alt="Procedural Logo" style="width:350px;">
+            </a>
+            <a href="https://www.substance3d.com/" target="_blank">
+                <img src="img/substancelogo.png" alt="Substance Logo" style="width:50px;float:right;">
+            </a>
+            <a href="https://quixel.com/" target="_blank">
+                <img src="img/quixellogo.png" alt="Quixel Logo" style="width:50px;float:right;">
+            </a>
+            <a href="https://www.blender.org/" target="_blank">
+                <img src="img/blenderlogo.png" alt="Blender Logo" style="width:50px;float:right;">
+            </a>
         </div>
-        <div class="modal-body">
-            <img src="">
-            <div class="modal-half">
-                <div class="description">
-                    <p>Lorem ipsum dolor sit amet consectour</p>
-                </div>
-                <div class="info">
-                <p>License <span>CC0 1.0 Universal</span></p>
-                <p>Author <span></span></p>
-                <p>Blender version <span>0.0</span></p>
-                <p>Render engine <span>Cycles</span></p>
-                <p>File size <span>0.00 MB</span></p>
-                <p>Release date <span>January 1, 1970</span></p>
+    </header>
+
+    <div class="section1">
+        <div class="row" id="materials">
+        </div>
+
+        <div class="pagination pagination--center">
+            <a class="prev page-numbers" onclick="">
+                <i class="fas fa-angle-left"></i>
+            </a>
+            <span class="page-numbers current" onclick="main(0)">1</span>
+            <span class="page-numbers" onclick="main(1)">2</span>
+            <a class="next page-numbers" onclick="">
+                <i class="fas fa-angle-right"></i>
+            </a>
+        </div>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Material Name</h2>
+            </div>
+            <div class="modal-body">
+                <img src="">
+                <div class="modal-half">
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectour</p>
+                    </div>
+                    <div class="info">
+                        <p>License <span>CC0 1.0 Universal</span></p>
+                        <p>Author <span></span></p>
+                        <p>Blender version <span>0.0</span></p>
+                        <p>Render engine <span>Cycles</span></p>
+                        <p>File size <span>0.00 MB</span></p>
+                        <p>Release date <span>January 1, 1970</span></p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="modal-footer">
-            <button class="btn-download">Download</button>
-            <button class="btn-share">Share</button>
-        </div>
-    </div>
-</div>
-<div id="modalShare" class="modal">
-    <div class="modal-content">
-        <div class="modal-body">
-            <button class="button twitter" data-sharer="twitter" data-title="Checkout Procedural!" data-hashtags="procedural,blender" data-url="https://retrax57.github.io/Procedural/">Share on Twitter</button>
-            <button class="button fb" data-sharer="facebook" data-hashtag="blender" data-url="https://retrax57.github.io/Procedural/">Share on Facebook</button>
-            <button class="button pin" data-sharer="pinterest" data-url="https://retrax57.github.io/Procedural/">Share on Pinterest</button>
+            <div class="modal-footer">
+                <button class="btn-download">Download</button>
+                <button class="btn-share">Share</button>
+            </div>
         </div>
     </div>
-</div>
-<a href="" download="" id="downloadLink"></a>
-<footer>
-    <a>About us</a> <span>|</span> <a href="https://github.com/Retrax57/Procedural">Contribute</a> <span>|</span> <a href="https://github.com/Retrax57/Procedural/issues/new">Report a bug</a>
-</footer>
-<script src="materials.min.js"></script>
-<script src="script.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
+    <div id="modalShare" class="modal">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button class="button twitter" data-sharer="twitter" data-title="Checkout Procedural!"
+                    data-hashtags="procedural,blender" data-url="https://retrax57.github.io/Procedural/">Share on
+                    Twitter</button>
+                <button class="button fb" data-sharer="facebook" data-hashtag="blender"
+                    data-url="https://retrax57.github.io/Procedural/">Share on Facebook</button>
+                <button class="button pin" data-sharer="pinterest"
+                    data-url="https://retrax57.github.io/Procedural/">Share on Pinterest</button>
+            </div>
+        </div>
+    </div>
+    <a href="" download="" id="downloadLink"></a>
+    <footer>
+        <a>About us</a> <span>|</span> <a href="https://github.com/Retrax57/Procedural">Contribute</a> <span>|</span> <a
+            href="https://github.com/Retrax57/Procedural/issues/new">Report a bug</a>
+    </footer>
+    <script src="materials.min.js"></script>
+    <script src="script.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
 </body>
+
 </html>
